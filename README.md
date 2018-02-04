@@ -23,13 +23,13 @@ Containerization and virutalization both provide isolation of the environment; t
 
 Since Vagrant was quite famous at that time, let me compare vagrant here with docker. Vagrant uses the concept of virtualization that we discussed above. The picture below explains the workflow when you are using vagrant for an application.
 
-![]('./images/vagrant.png')
+![](./images/vagrant.png)
 
 As you can see, when using vagrant, we have a virtual machine installed on our development machine and with the code there is a little block representing "Provisioning Scripts". With vagrant, we have to write a set of provisioning scripts that setup the virtual machine by installing all the required dependencies and preparing the environment for us to work on our local. This code along with the provisioning scripts is then pushed to any repository management service, for example GitHub. During the deployment to staging or producction, we have to run these provisioning scripts against the staging or production server to make it ready for the application to run.
 
 The workflow for Docker looks quite different from Vagrant. The picture below presents the workflow for Docker
 
-![]('./images/docker.png')
+![](./images/docker.png)
 
 
 
