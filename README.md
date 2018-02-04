@@ -1,9 +1,8 @@
-## In Progress
-> Check back later
-
---
-
-# Docker for Humans
+<p align="center">
+  <img src="./images/docker-logo.png" align="center" />
+  <h1 align="center">Docker for Humans</h1>
+  <p align="center">Everything that a human needs to know about Docker</p>
+</p>
 
 I am going to be giving a talk to a small user group here in Berlin titled "Stupidly Simple Docker" and despite being thousands of articles and guides out there on the topic, I thought it would be better if I accompany the talk with a little "dumbed-down" guide to help those not attending. In this article I am going to dumb it down a little and explain everything that a non-ops developer needs to know about docker. The article does not assume that you have any prior knowledge of docker or containers etc and by the end of this article you will be able to create your own docker images, push to repository, know how to use docker compose, how to communicate between the images, how to SSH into containers and run commands etc. So without further ado, let's get started.
 
@@ -31,6 +30,13 @@ The workflow for Docker looks quite different from Vagrant. The picture below pr
 
 ![](./images/docker.png)
 
+Before we proceed to explain the workflow, let me clarify something here that docker itself uses Linux technologies for it to operation. But you might be wondering, how is it possible to use Docker on let's say Windows and Mac then? Well docker utilizes some workarounds to achieve that. There is a small virtual machine designed for docker to operation, called boot2docker, docker initializes this VM and all the containers then run on this virtual machine. However, for mac, in the latest version of dockerthere is no need for this virtual machine as the new Docker.app uses the native hypervisor.framework to run containers.
 
+With that out of the way, let's look at the workflow now. As you can see there are three key parts to understand for docker i.e. `Dockerfile`, `Docker Image` and `Container`.
 
+Docker gives you the ability to snapshot the OS into a shared image, and makes it easy to deploy on other Docker hosts. Locally, dev, qa, prod, etc: all the same image. Sure you can do this with other tools, but not nearly as easily or fast.
+
+## Benefits of using Docker
+
+![](./images/container-benefits.png)
 
