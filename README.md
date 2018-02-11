@@ -3,9 +3,15 @@
   <h1 align="center">Docker for Humans</h1>
   <p align="center">Everything that a human needs to know about Docker</p>
   <p align="center">
-  	[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-  	[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-  	[![Author](https://img.shields.io/badge/maintainer-kamranahmedse-brightgreen.svg)](http://twitter.com/kamranahmedse)
+  	<a href="https://creativecommons.org/licenses/by/4.0/">
+  		<img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" />
+  	</a>
+  	<a href="http://makeapullrequest.com">
+  		<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
+  	</a>
+  	<a href="http://twitter.com/kamranahmedse">
+  		<img src="https://img.shields.io/badge/author-kamranahmedse-brightgreen.svg" />
+  	</a>
   </p>
 
   <p align="center">✋ The guide is in progress, please check back later ✋</p>
