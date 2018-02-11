@@ -75,14 +75,11 @@ Docker gives you the ability to snapshot the OS into a shared image, and makes i
 
 ## Benefits of using Docker
 
-<img src="./images/works-on-local.png" align="right" />
-<img src="./images/easier-onboarding.png" align="right" />
-<img src="./images/ci-efficiency.png" align="right" />
-<img src="./images/isolation-of-environments.png" align="right" />
-
 * **Standardization of Environments** Docker helps you standardize your environment and maximize productivity. It makes your apps portable i.e. same app can run on Mac, Linux or Windows without anyone having to worry about installing the dependencies or necessary software; all you need to have is docker installed on your machine, if the machine has docker installed on it, the Dockerized application will definitely work on that machine.
 
 * **Easier On-boarding** – Docker makes it easier to on-board the new team members in a sense that they do not have to spend days or weeks trying to setup the project before looking into it. All they have to do is install `git` and `docker` on their machine and get on to gaining the business and domain knowledge and be productive.
+
+<img src="./images/benefits.png"" />
 
 * **CI Efficiency** – Docker helps you improve the efficacy in your CI process. It lets you share the same image between the different stages of the CI process e.g. the image that was created on a QA server could be used on the staging and then on the production; thus reducing the deployment time. Apart from this, the created images are tagged (similar to git for example) and then, lets say, if things go wrong it is easier to rollback to last release/deployment.
 
