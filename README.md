@@ -1,7 +1,8 @@
 <p align="center">
   <img src="./images/docker-logo.png" height="150" align="center" />
   <h1 align="center">Docker for Humans</h1>
-  <p align="center">Everything that a human needs to know about Docker</p>
+  <p align="center">Everything you need to know about Docker</p>
+  <p align="center">Docker could seem scary which it really isn't. I will try to unravel everything that you need to know about docker in this guide and help you utilize it better in your daily job.</p>
   <p align="center">
   	<a href="https://creativecommons.org/licenses/by/4.0/">
   		<img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" />
@@ -13,10 +14,9 @@
   		<img src="https://img.shields.io/badge/author-kamranahmedse-brightgreen.svg" />
   	</a>
   </p>
-
-  <p align="center">✋ The guide is in progress, please check back later ✋</p>
-  <hr />
 </p>
+
+## Introduction
 
 I am going to be giving a talk to a small user group here in Berlin titled "Stupidly Simple Docker" and despite being thousands of articles and guides out there on the topic, I thought it would be better if I accompany the talk with a little "dumbed-down" guide to help those not attending. In this article I am going to dumb it down a little and explain everything that a non-ops developer needs to know about docker. The article does not assume that you have any prior knowledge of docker or containers etc and by the end of this article you will be able to create your own docker images, push to repository, know how to use docker compose, how to communicate between the images, how to SSH into containers and run commands etc. So without further ado, let's get started.
 
