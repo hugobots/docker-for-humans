@@ -1,8 +1,8 @@
 <p align="center">
   <img src="./images/docker-logo.png" height="150" align="center" />
   <h1 align="center">Docker for Humans</h1>
-  <p align="center">Everything you need to know about Docker</p>
-  <p align="center">Docker could seem scary which it really isn't. I will try to unravel everything that you need to know about docker in this guide and help you utilize it better in your daily job.</p>
+  <p align="center">Befriend yourselves with the cute fish!</p>
+  <p align="center">Docker could seem scary, it really isn't. I will try to unravel everything that you need to know about docker in this guide and help you utilize it better in your daily job.</p>
   <p align="center">
   	<a href="https://creativecommons.org/licenses/by/4.0/">
   		<img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" />
@@ -11,7 +11,7 @@
   		<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
   	</a>
   	<a href="http://twitter.com/kamranahmedse">
-  		<img src="https://img.shields.io/badge/author-kamranahmedse-brightgreen.svg" />
+  		<img src="https://img.shields.io/badge/author-kamranahmedse-blue.svg" />
   	</a>
   </p>
 </p>
