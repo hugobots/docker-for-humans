@@ -79,7 +79,9 @@ Docker gives you the ability to snapshot the OS into a shared image, and makes i
 
 * **Easier On-boarding** – Docker makes it easier to on-board the new team members in a sense that they do not have to spend days or weeks trying to setup the project before looking into it. All they have to do is install `git` and `docker` on their machine and get on to gaining the business and domain knowledge and be productive.
 
-![](./images/benefits.png)
+<p align="center">
+    <img src="./images/benefits.png" />
+</p>
 
 * **CI Efficiency** – Docker helps you improve the efficacy in your CI process. It lets you share the same image between the different stages of the CI process e.g. the image that was created on a QA server could be used on the staging and then on the production; thus reducing the deployment time. Apart from this, the created images are tagged (similar to git for example) and then, lets say, if things go wrong it is easier to rollback to last release/deployment.
 
