@@ -67,7 +67,7 @@ The workflow for Docker looks quite different from Vagrant. The picture below pr
 
 ![](./images/docker.png)
 
-Before we proceed to explain the workflow, let me clarify something here that docker itself uses Linux technologies for it to operation. But you might be wondering, how is it possible to use Docker on let's say Windows and Mac then? Well docker utilizes some workarounds to achieve that. There is a small virtual machine designed for docker to operation, called boot2docker, docker initializes this VM and all the containers then run on this virtual machine. However, for mac, in the latest version of dockerthere is no need for this virtual machine as the new Docker.app uses the native hypervisor.framework to run containers.
+Before we proceed to explain the workflow, let me clarify something here that docker itself uses Linux technologies for it to operation. But you might be wondering, how is it possible to use Docker on let's say Windows and Mac then? Well docker utilizes some workarounds to achieve that. There is a small virtual machine designed for docker to operation, called boot2docker, docker initializes this VM and all the containers then run on this virtual machine. However for mac, in the latest version of docker, there is no need for this virtual machine as the new Docker.app uses the native hypervisor.framework to run containers.
 
 With that out of the way, let's look at the workflow now. As you can see there are three key parts to understand for docker i.e. `Dockerfile`, `Docker Image` and `Container`.
 
@@ -75,5 +75,22 @@ Docker gives you the ability to snapshot the OS into a shared image, and makes i
 
 ## Benefits of using Docker
 
-![](./images/container-benefits.png)
+<img src="./images/works-on-local.png" align="right" />
 
+* **Standardization of Environments** Docker helps you standardize your environment and maximize productivity. It makes your apps portable i.e. same app can run on Mac, Linux or Windows without anyone having to worry about installing the dependencies or necessary software; all you need to have is docker installed on your machine, if the machine has docker installed on it, the Dockerized application will definitely work on that machine.
+
+<img src="./images/easier-onboarding.png" align="right" />
+
+* **Easier On-boarding** – Docker makes it easier to on-board the new team members in a sense that they do not have to spend days or weeks trying to setup the project before looking into it. All they have to do is install `git` and `docker` on their machine and get on to gaining the business and domain knowledge and be productive.
+
+<img src="./images/ci-efficiency.png" align="right" />
+
+* **CI Efficiency** – Docker helps you improve the efficacy in your CI process. It lets you share the same image between the different stages of the CI process e.g. the image that was created on a QA server could be used on the staging and then on the production; thus reducing the deployment time. Apart from this, the created images are tagged (similar to git for example) and then, lets say, if things go wrong it is easier to rollback to last release/deployment.
+
+<img src="./images/isolation-of-environments.png" align="right" />
+
+* **Isolation of Environments** – Docker lets you easily isolate your development environments. It lets you keep your machine clean i.e. you don't have to install the un-necessary software that you need just for one project to run. It lets you run several different apps in isolated environments without any conflicts, for example as you can see in the image, if you have two apps and one runs on MongoDB 3.6 and the other on 2.6, you can easily run them both in different containers without having to worry about managing these conflicting requirements on your host machine.
+
+<img src="./images/security.png" align="right" />
+
+* **Security** – It helps you contain your applications in secure "boxes" which do their processing under the imposed restrictions. For example, a container cannot look into the processes being run on the other container or out on the host machine.
