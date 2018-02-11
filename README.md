@@ -16,6 +16,29 @@
   </p>
 </p>
 
+## Table of Contents
+* [Introduction](#introduction)
+* [What is Docker?](#what-is-docker)
+* [Containerization vs Virtualization](#containerization-vs-virtualization)
+* [Comparing Docker to Vagrant or Virtual Machine](#comparing-docker-to-vagrant-or-virtual-machine)
+* [Benefits of Using Docker](#benefits-of-using-docker)
+* [Docker Under the Hood](#docker-under-the-hood)
+* [Dockerfile](#dockerfile)
+	- [What is Dockerfile](#what-is-dockerfile)
+	- [What are Layers](#what-are-layers)
+	- [Writing a Dockerfile](#writing-a-dockerfile)
+	- [Running a Dockerfile](#running-a-dockerfile)
+	- [Multi-stage Builds](#multi-stage-builds)
+	- [Dockerignore](#dockerignore)
+	- [Some Gotchas](#some-gotchas)
+	- [Dockerfile Best Practices](#dockerfile-best-practices)
+* [Docker Compose](#docker-compose)
+* [Networks](#networks)
+* [Volumes](#volumes)
+* [Security](#security)
+* [Registry and Repository](#registry-and-repository)
+* [Best Practices](#best-practices)
+
 ## Introduction
 
 I am going to be giving a talk to a small user group here in Berlin titled "Stupidly Simple Docker" and despite being thousands of articles and guides out there on the topic, I thought it would be better if I accompany the talk with a little "dumbed-down" guide to help those not attending. In this article I am going to dumb it down a little and explain everything that a non-ops developer needs to know about docker. The article does not assume that you have any prior knowledge of docker or containers etc and by the end of this article you will be able to create your own docker images, push to repository, know how to use docker compose, how to communicate between the images, how to SSH into containers and run commands etc. So without further ado, let's get started.
