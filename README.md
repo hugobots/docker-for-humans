@@ -8,7 +8,7 @@
   		<img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" />
   	</a>
   	<a href="http://makeapullrequest.com">
-  		<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
+  		<img src="https://img.shields.io/badge/contributions-welcome-green.svg" />
   	</a>
   	<a href="http://twitter.com/kamranahmedse">
   		<img src="https://img.shields.io/badge/author-kamranahmedse-blue.svg" />
