@@ -79,12 +79,10 @@ Docker gives you the ability to snapshot the OS into a shared image, and makes i
 
 * **Easier On-boarding** – Docker makes it easier to on-board the new team members in a sense that they do not have to spend days or weeks trying to setup the project before looking into it. All they have to do is install `git` and `docker` on their machine and get on to gaining the business and domain knowledge and be productive.
 
-<img src="./images/benefits.png"" />
+![](./images/benefits.png)
 
 * **CI Efficiency** – Docker helps you improve the efficacy in your CI process. It lets you share the same image between the different stages of the CI process e.g. the image that was created on a QA server could be used on the staging and then on the production; thus reducing the deployment time. Apart from this, the created images are tagged (similar to git for example) and then, lets say, if things go wrong it is easier to rollback to last release/deployment.
 
 * **Isolation of Environments** – Docker lets you easily isolate your development environments. It lets you keep your machine clean i.e. you don't have to install the un-necessary software that you need just for one project to run. It lets you run several different apps in isolated environments without any conflicts, for example as you can see in the image, if you have two apps and one runs on MongoDB 3.6 and the other on 2.6, you can easily run them both in different containers without having to worry about managing these conflicting requirements on your host machine.
 
 * **Security** – It helps you contain your applications in secure "boxes" which do their processing under the imposed restrictions. For example, a container cannot look into the processes being run on the other container or out on the host machine.
-
-<img src="./images/security.png" align="center" />
