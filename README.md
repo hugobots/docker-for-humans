@@ -1,6 +1,5 @@
-<p align="center"><img src="https://i.imgur.com/SFYksY0.jpg" height="250" align="center" /></p>
-
 <p align="center">
+	<img src="https://i.imgur.com/SFYksY0.jpg" height="250" align="center" />
 <!--   <img src="./images/docker-logo.png" height="150" align="center" /> -->
   <h1 align="center">Docker for Humans</h1>
   <p align="center">Befriend yourselves with the cute fish!</p>
